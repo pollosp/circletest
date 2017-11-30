@@ -1,0 +1,13 @@
+jobs:
+  build:
+    # Specify the Xcode version to use
+    macos:
+      xcode: "8.3.3"
+
+    steps:
+      - test1
+
+      # Install CocoaPods
+      - run:
+          name: test.sh
+          command: sh test.sh
