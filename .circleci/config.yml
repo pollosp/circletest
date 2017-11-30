@@ -10,4 +10,4 @@ jobs:
           command: uname -a
       - run:
           name: test.sh
-          command: ls
+          command: test.sh
