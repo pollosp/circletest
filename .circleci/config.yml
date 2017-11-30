@@ -5,9 +5,13 @@ jobs:
       xcode: "8.3.3"
 
     steps:
+      - checkout
       - run:
-          name: test.sh
+          name: uname
           command: uname -a
+      - run:
+          name: ls
+          command: ls
       - run:
           name: test.sh
           command: test.sh
