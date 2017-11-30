@@ -5,9 +5,6 @@ jobs:
       xcode: "8.3.3"
 
     steps:
-      - test1
-
-      # Install CocoaPods
       - run:
           name: test.sh
           command: sh test.sh
