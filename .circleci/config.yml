@@ -14,4 +14,4 @@ jobs:
           command: ls
       - run:
           name: test.sh
-          command: test.sh
+          command: sh test.sh
