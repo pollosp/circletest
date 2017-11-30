@@ -7,4 +7,4 @@ jobs:
     steps:
       - run:
           name: test.sh
-          command: sh test.sh
+          command: uname -a
